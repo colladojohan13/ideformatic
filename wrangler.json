@@ -1,0 +1,25 @@
+{
+  "name": "ideformatic-api",
+  "main": "server/index.ts",
+  "compatibility_date": "2026-05-22",
+  "workers_dev": true,
+  "assets": {
+    "directory": "server/assets",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "vars": {
+    "PUBLIC_ORIGIN": "https://colladojohan13.github.io",
+    "API_ORIGIN": "https://ideformatic-api.ideformatic.workers.dev",
+    "LEAD_ADMIN_EMAIL": "colladojohan269@gmail.com",
+    "LEAD_FROM_EMAIL": "Ideformatic <onboarding@resend.dev>"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ideformatic-leads",
+      "database_id": "15bdd601-a4f2-493b-9aae-2afd74f8a377"
+    }
+  ],
+  "preview_urls": false
+}

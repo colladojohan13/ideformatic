@@ -1,0 +1,11 @@
+node_modules/
+.wrangler/
+.cloudflare-local/
+.dev.vars*
+.env*
+*.log
+test-results/
+private-export*
+# Archivos locales de migración
+scripts/connect-secrets.mjs
+scripts/prepare.mjs

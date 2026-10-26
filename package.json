@@ -1,0 +1,16 @@
+{
+  "name": "ideformatic",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "node tests/integration.mjs",
+    "dev:api": "wrangler dev --local --port 8787",
+    "deploy:api": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20260515.1",
+    "typescript": "5.9.3",
+    "wrangler": "4.92.0"
+  }
+}

@@ -33,3 +33,11 @@ La configuración usa Workers y D1 gratuitos; no configura actualizaciones a pla
 
 No se incluye una licencia de redistribución. Los datos de clientes y credenciales no forman parte del repositorio.
 
+
+## Direcciones activas
+- Web: https://colladojohan13.github.io/ideformatic/
+- Panel: https://ideformatic-api.ideformatic.workers.dev/admin
+- Entrada desde GitHub: https://colladojohan13.github.io/ideformatic/admin/
+- Repositorio: https://github.com/colladojohan13/ideformatic
+
+Migración validada el 26 de octubre de 2026: consulta enviada desde GitHub Pages, guardada en D1 y aviso enviado por Resend. El propietario confirmó acceso al panel mediante código por correo. El registro anterior era una prueba técnica y se conservó en D1. No se migraron claves ni sesiones de Sites.

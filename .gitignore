@@ -5,6 +5,7 @@ node_modules/
 .env*
 *.log
 test-results/
+output/
 private-export*
 # Archivos locales de migración
 scripts/connect-secrets.mjs
